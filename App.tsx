@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HeroSection from './sections/HeroSection';
+import VideoSection from './sections/VideoSection';
 import LeaderboardSection from './sections/LeaderboardSection';
 import MatchSection from './sections/MatchSection';
 import TeamUpSection from './sections/TeamUpSection';
@@ -16,6 +17,7 @@ const App: React.FC = () => {
             <Header />
             <main>
                 <HeroSection />
+                <VideoSection />
                 <LeaderboardSection />
                 <MatchSection />
                 <TeamUpSection />

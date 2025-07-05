@@ -83,7 +83,19 @@ export const content = {
     },
     footer: {
         logo: "Fitzens",
-        description: "Real-Time Fitness Competition.",
-        copyright: `© ${new Date().getFullYear()} Fitzens. All rights reserved.`
+        description: "Real-Time Fitness Competition. Find your match and climb the ranks.",
+        copyright: `© ${new Date().getFullYear()} Fitzens. All rights reserved.`,
+        links: {
+            company: [
+                { text: "About Us", href: "#about" },
+                { text: "Careers", href: "#" },
+                { text: "Contact Us", href: "#" },
+            ],
+            social: [
+                { name: "Facebook", href: "#" },
+                { name: "Twitter", href: "#" },
+                { name: "Instagram", href: "#" },
+            ]
+        }
     }
 };
