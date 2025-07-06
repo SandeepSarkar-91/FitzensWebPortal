@@ -9,6 +9,7 @@ import MatchSection from './sections/MatchSection';
 import TeamUpSection from './sections/TeamUpSection';
 import DataPortalSection from './sections/DataPortalSection';
 import AboutSection from './sections/AboutSection';
+import VisionSection from './sections/VisionSection';
 import CtaSection from './sections/CtaSection';
 
 const App: React.FC = () => {
@@ -23,6 +24,7 @@ const App: React.FC = () => {
                 <TeamUpSection />
                 <DataPortalSection />
                 <AboutSection />
+                <VisionSection />
                 <CtaSection />
             </main>
             <Footer />
