@@ -1,4 +1,3 @@
-
 export const content = {
     nav: {
         logo: "Fitzens",
@@ -51,28 +50,73 @@ export const content = {
         description: "Log in to our stunning web portal to visualize your fitness journey like never before with interactive 3D charts, a virtual trophy room for your achievements, and a globe tracking our global community's activity."
     },
     about: {
-        title: "The Fitzens Ecosystem",
-        description: "Fitzens is a comprehensive social fitness ecosystem designed to foster motivation through competition and community. The platform is built around several core pillars:",
-        features: [
+        title: "About Us",
+        content: [
+            "At Fitzens, we are a passionate team of technologists, fitness enthusiasts, and community builders. We looked at the world of digital fitness and saw a landscape of solitary trackers and lonely workouts. We knew there had to be a better, more human way to motivate.",
+            "We created Fitzens to bridge the gap between personal goals and shared experiences. Our platform is meticulously engineered to ignite your competitive spirit with real-time leaderboards, help you find your fitness tribe through location-based matching, and turn solitary routines into shared victories with group competitions and virtual tournaments.",
+            "We believe that technology's greatest power is its ability to bring people together. By combining cutting-edge backend architecture with a seamless user experience, we're building more than just an app; we're building the world's most supportive and motivational fitness community."
+        ]
+    },
+    vision: {
+        title: "Our Vision",
+        content: [
+            "We've all been there. The new gym membership that gathers dust. The running shoes that stay in the box. The initial spark of motivation that fades into a lonely, repetitive routine. The truth is, lasting change is incredibly hard to achieve alone.",
+            "Our vision isn't just about building another fitness app; it's about fundamentally re-imagining the nature of motivation itself.",
+            "We envision a world where a daily workout is not a chore to be checked off a list, but a habit infused with the same excitement as playing a game or connecting with a friend. It’s a world where a shared bead of sweat can build a stronger bond than a shared Wi-Fi password.",
+            "Our reason for every line of code we write. We want to create a future where every single person, regardless of their starting point, has a community cheering them on, a friendly rival pushing them just a little bit further, and a platform to celebrate their every victory, big or small.",
+            "We are doing this because we passionately believe that a healthier life is a happier life, and nobody should have to walk—or run—that path alone."
+        ]
+    },
+    testimonials: {
+        title: "Meet Our Community",
+        items: [
             {
-                title: "Real-Time, Multi-Layered Leaderboards",
-                description: "The foundation of our app is a highly performant leaderboard system. It operates in real-time, reflecting user activity instantly. This system is contextual, offering global rankings, private group competitions, and time-boxed leaderboards for virtual tournaments."
+                quote: "The real-time leaderboards are addictive! I've pushed myself harder in the last month than I have in years. Seeing my rank climb is the best motivation.",
+                name: "Carlos R.",
+                image: "https://picsum.photos/seed/customer1/150/150",
+                instagram: "https://www.instagram.com/"
             },
             {
-                title: "Location-Based Social Discovery",
-                description: "Going beyond simple leaderboards, the app includes a 'Match' feature that uses geospatial data to suggest potential connections with nearby users. To encourage app engagement, profiles are initially obscured and are only revealed after a user completes specific fitness tasks, creating a rewarding discovery loop."
+                quote: "I found my new gym buddy through the matching feature. We keep each other accountable and have even started competing in team events. It's a game-changer.",
+                name: "Jenna M.",
+                image: "https://picsum.photos/seed/customer2/150/150",
+                instagram: "https://www.instagram.com/"
             },
             {
-                title: "Group and Tournament System",
-                description: "Users can form persistent groups with friends to compete collectively against other teams. The platform also hosts large-scale, scheduled virtual tournaments with specific goals and prizes, creating event-driven spikes in user activity."
+                quote: "As a data nerd, the web portal is my favorite part. The 3D charts are not just cool to look at; they actually help me understand my performance trends.",
+                name: "David L.",
+                image: "https://picsum.photos/seed/customer3/150/150",
+                instagram: "https://www.instagram.com/"
             },
             {
-                title: "Secure Real-Time Chat",
-                description: "Upon a mutual match, users unlock the ability to communicate through a secure, real-time chat interface. The functionality includes essential safety features like blocking and reporting to ensure a positive user environment."
+                quote: "Fitzens turned my solo runs into a global race. It's amazing to feel connected to so many people who share my passion for fitness.",
+                name: "Aisha K.",
+                image: "https://picsum.photos/seed/customer4/150/150",
+                instagram: "https://www.instagram.com/"
             },
             {
-                title: "Premium Web Portal (Data Visualization)",
-                description: "Complementing the mobile app is an advanced web portal that functions as a personal analytics dashboard. It leverages 3D rendering technologies to offer users an immersive way to view their progress, featuring interactive 3D activity charts and a virtual 'trophy room' for their achievements."
+                quote: "The virtual tournaments are intense! The prizes are great, but the bragging rights are what really matter. Highly recommend for competitive people.",
+                name: "Mousumi Chowdhury",
+                image: "https://picsum.photos/seed/customer5/150/150",
+                instagram: "https://www.instagram.com/eleutheromaniac_m/"
+            },
+            {
+                quote: "Finally, a fitness app that gets the social part right. The chat is secure and easy to use. It feels like a real community, not just a bunch of stats.",
+                name: "Sophie T.",
+                image: "https://picsum.photos/seed/customer6/150/150",
+                instagram: "https://www.instagram.com/"
+            },
+            {
+                quote: "I was skeptical about location-based matching, but it's been awesome. Met a couple of people in my neighborhood for weekend hikes.",
+                name: "Ben C.",
+                image: "https://picsum.photos/seed/customer7/150/150",
+                instagram: "https://www.instagram.com/"
+            },
+            {
+                quote: "This app just looks and feels premium. From the UI to the performance, everything is top-notch. It makes me want to open it every day.",
+                name: "Olivia W.",
+                image: "https://picsum.photos/seed/customer8/150/150",
+                instagram: "https://www.instagram.com/"
             }
         ]
     },
@@ -83,7 +127,28 @@ export const content = {
     },
     footer: {
         logo: "Fitzens",
-        description: "Real-Time Fitness Competition.",
-        copyright: `© ${new Date().getFullYear()} Fitzens. All rights reserved.`
+        description: "Real-Time Fitness Competition. Find your match and climb the ranks.",
+        copyright: `© ${new Date().getFullYear()} Fitzens. All rights reserved.`,
+        links: {
+            company: [
+                { text: "About Us", href: "#about" },
+                { text: "Careers", href: "#" },
+                { text: "Contact Us", href: "#" },
+            ],
+            legal: [
+                { text: "Legal", href: "#" },
+                { text: "Terms", href: "#" },
+                { text: "Privacy", href: "#" },
+                { text: "Security", href: "#" },
+            ],
+            social: [
+                { name: "Instagram", href: "https://www.instagram.com/fitzens.blr/" },
+                { name: "YouTube", href: "#" },
+            ],
+            app: [
+                { platform: "App Store", href: "#" },
+                { platform: "Google Play", href: "#"}
+            ]
+        }
     }
 };
