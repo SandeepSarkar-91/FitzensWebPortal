@@ -96,9 +96,9 @@ export const content = {
             },
             {
                 quote: "The virtual tournaments are intense! The prizes are great, but the bragging rights are what really matter. Highly recommend for competitive people.",
-                name: "Mike P.",
+                name: "Mousumi Chowdhury",
                 image: "https://picsum.photos/seed/customer5/150/150",
-                instagram: "https://www.instagram.com/"
+                instagram: "https://www.instagram.com/eleutheromaniac_m/"
             },
             {
                 quote: "Finally, a fitness app that gets the social part right. The chat is secure and easy to use. It feels like a real community, not just a bunch of stats.",
