@@ -2,14 +2,16 @@ import React from 'react';
 import SectionWrapper from '../components/SectionWrapper';
 import { content } from '../content/content';
 
-const TestimonialCard: React.FC<{ quote: string; name: string; image: string }> = ({ quote, name, image }) => (
+const TestimonialCard: React.FC<{ quote: string; name: string; image: string; instagram: string; }> = ({ quote, name, image, instagram }) => (
     <div className="flex-shrink-0 w-80 bg-gray-900/80 backdrop-blur-sm border border-gray-700/50 rounded-2xl p-6 mx-4">
-        <div className="flex items-center mb-4">
-            <img src={image} alt={name} className="w-16 h-16 rounded-full object-cover mr-4 border-2 border-lime-400/50" />
-            <div>
-                <p className="font-bold text-white text-lg">{name}</p>
+        <a href={instagram} target="_blank" rel="noopener noreferrer" className="block group/profile">
+            <div className="flex items-center mb-4">
+                <img src={image} alt={name} className="w-20 h-20 rounded-full object-cover mr-4 border-2 border-lime-400/50 transition-transform duration-300 group-hover/profile:scale-105" />
+                <div>
+                    <p className="font-bold text-white text-lg transition-colors duration-300 group-hover/profile:text-lime-400">{name}</p>
+                </div>
             </div>
-        </div>
+        </a>
         <p className="text-gray-300 italic">"{quote}"</p>
     </div>
 );

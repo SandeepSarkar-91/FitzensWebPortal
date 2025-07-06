@@ -1,4 +1,3 @@
-
 export const content = {
     nav: {
         logo: "Fitzens",
@@ -74,42 +73,50 @@ export const content = {
             {
                 quote: "The real-time leaderboards are addictive! I've pushed myself harder in the last month than I have in years. Seeing my rank climb is the best motivation.",
                 name: "Carlos R.",
-                image: "https://picsum.photos/seed/customer1/150/150"
+                image: "https://picsum.photos/seed/customer1/150/150",
+                instagram: "https://www.instagram.com/"
             },
             {
                 quote: "I found my new gym buddy through the matching feature. We keep each other accountable and have even started competing in team events. It's a game-changer.",
                 name: "Jenna M.",
-                image: "https://picsum.photos/seed/customer2/150/150"
+                image: "https://picsum.photos/seed/customer2/150/150",
+                instagram: "https://www.instagram.com/"
             },
             {
                 quote: "As a data nerd, the web portal is my favorite part. The 3D charts are not just cool to look at; they actually help me understand my performance trends.",
                 name: "David L.",
-                image: "https://picsum.photos/seed/customer3/150/150"
+                image: "https://picsum.photos/seed/customer3/150/150",
+                instagram: "https://www.instagram.com/"
             },
             {
                 quote: "Fitzens turned my solo runs into a global race. It's amazing to feel connected to so many people who share my passion for fitness.",
                 name: "Aisha K.",
-                image: "https://picsum.photos/seed/customer4/150/150"
+                image: "https://picsum.photos/seed/customer4/150/150",
+                instagram: "https://www.instagram.com/"
             },
             {
                 quote: "The virtual tournaments are intense! The prizes are great, but the bragging rights are what really matter. Highly recommend for competitive people.",
                 name: "Mike P.",
-                image: "https://picsum.photos/seed/customer5/150/150"
+                image: "https://picsum.photos/seed/customer5/150/150",
+                instagram: "https://www.instagram.com/"
             },
             {
                 quote: "Finally, a fitness app that gets the social part right. The chat is secure and easy to use. It feels like a real community, not just a bunch of stats.",
                 name: "Sophie T.",
-                image: "https://picsum.photos/seed/customer6/150/150"
+                image: "https://picsum.photos/seed/customer6/150/150",
+                instagram: "https://www.instagram.com/"
             },
             {
                 quote: "I was skeptical about location-based matching, but it's been awesome. Met a couple of people in my neighborhood for weekend hikes.",
                 name: "Ben C.",
-                image: "https://picsum.photos/seed/customer7/150/150"
+                image: "https://picsum.photos/seed/customer7/150/150",
+                instagram: "https://www.instagram.com/"
             },
             {
                 quote: "This app just looks and feels premium. From the UI to the performance, everything is top-notch. It makes me want to open it every day.",
                 name: "Olivia W.",
-                image: "https://picsum.photos/seed/customer8/150/150"
+                image: "https://picsum.photos/seed/customer8/150/150",
+                instagram: "https://www.instagram.com/"
             }
         ]
     },
